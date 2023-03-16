@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  padding: 32px;
+  justify-content: center;
+  
+}
+.bold{
+  font-weight: bold;
+}
+.p-b20{
+  padding-bottom: 20px;
+}
+.pokeCard{
+    cursor: pointer;
+    justify-content: center;
+    width: 15%;
+    height: 200px;
+    margin: 8px;
+    background-color: pink;
+}
+body{
+  background-color: #b0b0db;
+}
+div.pokeCard:hover {
+  background-color: #f38fa1;
+}
