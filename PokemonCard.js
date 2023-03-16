@@ -21,7 +21,7 @@ const getPokemon = async (pokemonName) => {
         <>
         <div onClick={handleShow} className="card shadow pokeCard">
           <div className="p-b20">{pokemon.id}</div>
-          <div><img style={{height: '4rem'}} src={imageUrl} alt={pokemon.name}/></div>
+          <div><img style={{height: '5rem',width: '9rem'}} src={imageUrl} alt={pokemon.name}/></div>
         </div>
         <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
